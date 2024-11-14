@@ -34,6 +34,7 @@ export const currentUser = (
     ) as UserPayload
 
     req.currentUser = payload
+    
   } catch (error) {
     res.send({currentUser: null})
   }
