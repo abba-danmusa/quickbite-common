@@ -4,8 +4,9 @@ import jwt from 'jsonwebtoken'
 const router = express.Router()
 
 interface UserPayload {
-  id: string
-  email: string
+  id: string;
+  email: string;
+  
 }
 
 declare global {
